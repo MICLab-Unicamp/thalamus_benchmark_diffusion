@@ -59,9 +59,7 @@ This work was only tested in Ubuntu 20.04. We don't guarantee support outside of
 
 # Code Usage
 
-The notebooks represent each processing stage for the pipeline of this work. You should run then in this order: TODO patches, train each orientation...
+The notebooks represent each processing stage for the pipeline of this work. Soon we will have more notebooks added and detailed instructions for usage.
 
-TODO_NOTEBOOK_ORDER
-
-TODO_DESCRIBE_EACH_NOTEBOOK
+For now, inference.ipynb provides a way to segment the provided sample data with the included checkpoints.
 
