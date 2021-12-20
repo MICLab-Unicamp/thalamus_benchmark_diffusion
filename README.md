@@ -59,7 +59,33 @@ This work was only tested in Ubuntu 20.04. We don't guarantee support outside of
 
 # Code Usage
 
-The notebooks represent each processing stage for the pipeline of this work. Soon we will have more notebooks added and detailed instructions for usage.
+The notebooks represent each processing stage for the pipeline of this work. The notebooks are enumerated according to the run order.
 
-For now, inference.ipynb provides a way to segment the provided sample data with the included checkpoints.
+1 - Patche_creation.ipynb
+
+This code creates the patches to be used during the training phase. It creates patches for all input channels as well as for all segmentation masks.
+
+2 - Training.ipynb
+
+Used to train the CNN models. Parameters such as the combination of input channels are allowed to be changed.
+
+3 - Patche_creation_finetuning.ipynb
+
+Equivalent to 1, but specifically for the fine tuning subset.
+
+4 - Finetuning.ipynb
+
+Used to finetune the models trained in notebook number 2.
+
+5 - Save inference (test set _20 subjects).ipynb
+
+This notebook uses any trained model to make inferences and save the prediction in .nii format. It could be done on the test subset or any other subgroup.
+
+6 - Evaluate_prediction.ipynb
+
+Notebook used to compute the metrics of each prediction. It also computes some statistics on the group's predictions.
+
+
+
+Alternatively, inference.ipynb could be used to segment the provided sample data with the included checkpoints.
 
