@@ -87,5 +87,5 @@ Notebook used to compute the metrics of each prediction. It also computes some s
 
 
 
-Alternatively, inference.ipynb could be used to segment the provided sample data with the included checkpoints.
+**Alternatively, inference.ipynb** could be used to segment the provided sample data with the included checkpoints.
 
