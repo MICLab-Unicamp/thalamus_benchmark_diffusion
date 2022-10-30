@@ -185,7 +185,7 @@ We use the standard U-Net for this work. The only change is the numper of input 
 
 ----------------------------------------------------------------  
         Layer (type)               Output Shape         Param #  
-================================================================  
+ 
             Conv2d-1         [-1, 32, 144, 144]           1,440  
        BatchNorm2d-2         [-1, 32, 144, 144]              64  
               ReLU-3         [-1, 32, 144, 144]               0  
