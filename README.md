@@ -220,28 +220,28 @@ We use the standard U-Net for this work. The only change is the numper of input 
            Conv2d-32            [-1, 512, 9, 9]       2,359,296  
       BatchNorm2d-33            [-1, 512, 9, 9]           1,024  
              ReLU-34            [-1, 512, 9, 9]               0  
-  ConvTranspose2d-35          [-1, 256, 18, 18]         524,544  
+    ConvTranspose2d-35          [-1, 256, 18, 18]         524,544  
            Conv2d-36          [-1, 256, 18, 18]       1,179,648  
       BatchNorm2d-37          [-1, 256, 18, 18]             512  
              ReLU-38          [-1, 256, 18, 18]               0  
            Conv2d-39          [-1, 256, 18, 18]         589,824  
       BatchNorm2d-40          [-1, 256, 18, 18]             512  
              ReLU-41          [-1, 256, 18, 18]               0  
-  ConvTranspose2d-42          [-1, 128, 36, 36]         131,200  
+    ConvTranspose2d-42          [-1, 128, 36, 36]         131,200  
            Conv2d-43          [-1, 128, 36, 36]         294,912  
       BatchNorm2d-44          [-1, 128, 36, 36]             256  
              ReLU-45          [-1, 128, 36, 36]               0  
            Conv2d-46          [-1, 128, 36, 36]         147,456  
       BatchNorm2d-47          [-1, 128, 36, 36]             256  
              ReLU-48          [-1, 128, 36, 36]               0  
-  ConvTranspose2d-49           [-1, 64, 72, 72]          32,832  
+    ConvTranspose2d-49           [-1, 64, 72, 72]          32,832  
            Conv2d-50           [-1, 64, 72, 72]          73,728  
       BatchNorm2d-51           [-1, 64, 72, 72]             128  
              ReLU-52           [-1, 64, 72, 72]               0  
            Conv2d-53           [-1, 64, 72, 72]          36,864  
       BatchNorm2d-54           [-1, 64, 72, 72]             128  
              ReLU-55           [-1, 64, 72, 72]               0  
-  ConvTranspose2d-56         [-1, 32, 144, 144]           8,224  
+    ConvTranspose2d-56         [-1, 32, 144, 144]           8,224  
            Conv2d-57         [-1, 32, 144, 144]          18,432  
       BatchNorm2d-58         [-1, 32, 144, 144]              64  
              ReLU-59         [-1, 32, 144, 144]               0  
@@ -250,7 +250,7 @@ We use the standard U-Net for this work. The only change is the numper of input 
              ReLU-62         [-1, 32, 144, 144]               0  
            Conv2d-63          [-1, 2, 144, 144]              66  
              UNet-64          [-1, 2, 144, 144]               0  
-================================================================  
+
 Total params: 7,763,650  
 Trainable params: 7,763,650  
 Non-trainable params: 0  
