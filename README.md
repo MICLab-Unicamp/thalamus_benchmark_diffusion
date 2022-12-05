@@ -6,7 +6,7 @@ Our paper describing everything in details is in the submission process and a ci
 
 # Data Acquisition
 
-To acquire de processed data, follow the steps on https://www.ccdataset.com/thalamus-benchmark.
+To acquire the processed data, follow the steps at https://www.ccdataset.com/thalamus-benchmark.
 
 Extract it following the existing organization on the code/Data folder. 
 After populating the code/Data folder, you should be able to run every necessary step of the pipeline. 
